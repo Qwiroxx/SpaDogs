@@ -1,0 +1,206 @@
+:root{
+    --main-bg-color:#121212;
+    --main-green:#B2FFA6;
+    --bg-color: #efefef
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+.home-nav
+{
+    color: var(--main-green);
+    font-family: Oswald;
+    text-transform: uppercase;
+}
+.header
+{
+    padding: 5px;
+}
+.learn-more
+{
+        font-family: Oswald;
+        background-color:var(--main-green);
+        border-radius: 5px;
+        border: none;
+        padding: 10px 40px;
+        transition: background-color 0.3s;
+        text-transform: uppercase;
+        font-size: 14px;
+}
+.learn-more:hover
+{
+    background-color: #88cc88;
+}
+.advantages-list
+{
+    display: flex;
+    max-width: 926px;
+    max-height: 506px;
+    justify-content: center;
+}
+.text-info
+{
+    font-family: Raleway;
+}
+.nav-site
+{
+    color: white;
+    font-family: Oswald;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+.nav-site:hover{color: var(--main-green);}
+header
+{
+    background-color: var(--main-bg-color);
+}
+.footer
+{
+    background-color:var(--main-bg-color);
+    padding: 10px;
+}
+.footers
+{
+    display: flex;
+    align-items: center;
+    gap: 700px;
+}
+.footer-info
+{
+    color: white;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 200;
+}
+.bg-gray
+{
+    background-color: var(--bg-color);
+}
+.footer-link
+{
+    color: #EFEFEF;
+    font-size: 23px;
+    font-family: Raleway;
+}
+.services
+{
+    margin-bottom: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+.services-variety
+{
+    margin-bottom: 25px;
+    text-align: center;
+    line-height: 20px;
+    font-family: Raleway;
+    
+}
+.list-nav
+{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.view-all
+{
+    background-color: #EFEFEF;
+    border: 3px var(--main-green) solid;
+    display: block;
+    margin: 0 auto;
+    padding: 8px 35px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.container
+{
+    max-width: 1621px;
+    padding: 0 15px;
+    margin: 0 150px;
+}
+.dogs
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-inline-start: 0;
+}
+.advertisement
+{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    margin-right: 10px;
+}
+.advertisements
+{
+    margin-top: 30px;
+}
+.info-about-us
+{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    
+}
+.about-us
+{
+    margin-bottom: 30px;
+}
+.about-us-child
+{
+    width: 400px;
+}
+.our-salon
+{
+    font-family: Raleway;
+    width: 400px;
+}
+.our-advantages
+{
+    display: flex;
+    align-items: center;
+}
+.advertisement-item
+{
+    font-size: 34px;
+    font-family: Raleway;
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+#look-better
+{
+    font-weight: bold;
+    font-size: 34px;
+    font-family: Raleway;
+    margin-top: 10px;
+}
+.advertisement-button
+{
+        font-family: Oswald;
+        background-color:var(--main-green);
+        border-radius: 5px;
+        border: none;
+        padding: 10px 40px;
+        transition: background-color 0.3s;
+        text-transform: uppercase;
+        font-size: 14px;
+        
+}
+.advertisement-button:hover
+{
+    background-color: #88cc88;  
+}
+.service
+{
+    background-color: var(--bg-color);
+    padding-bottom: 35px;
+}
